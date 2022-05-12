@@ -1,19 +1,5 @@
-branch-defaults:
-  main:
-    environment: test-dev2
-environment-defaults:
-  test-dev2:
-    branch: null
-    repository: null
 global:
-  application_name: test
   default_ec2_keyname: trevari-prod-key
   default_platform: Corretto 11 running on 64bit Amazon Linux 2
   default_region: ap-northeast-2
-  include_git_submodules: true
-  instance_profile: null
-  platform_name: null
-  platform_version: null
-  profile: eb-cli
-  sc: git
   workspace_type: Application
