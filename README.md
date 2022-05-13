@@ -1,5 +1,4 @@
 
-### elastic beanstalk 배포 환경 설정 레포.
 
 배포 환경 구축시
 
@@ -43,7 +42,7 @@ ${x}) [ Create new Application ]
 (default is ${x} ): 
 ```
 
-N 을 입력한다.
+aws 코드 커밋을 사용할건지 묻는다. N 을 입력한다.
 ```
 Do you wish to continue with CodeCommit? (Y/n): 
 ```
