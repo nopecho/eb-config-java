@@ -1,6 +1,6 @@
 
 
-배포 환경 구축시
+## eb 환경 구
 
 프로젝트 루트에서 아래 명령어를 실행한다.
 ```
@@ -79,3 +79,15 @@ Would you like to enable Spot Fleet requests for this environment? (y/N):
 ```
 
 기다리면 .extensions 폴더와 .elasticbeanstalk 폴더에 있는 config 파일을 바탕으로 eb 애플리케이션과 배포 환경이 구성된다.
+
+
+---
+
+## 개선
+
+- 쉘 스크립트를 통해 eb 애플리케이션 이름 설정과 환경 이름 설정을 제외한 모든 작업을 자동화 한다.
+  - 대화식 쉘에 입력값을 어떻게 전달 할것인가?
+
+  - 이름 설정도 지정된 네이밍 규칙으로 자동화?
+- aws iam key를 외부화 한다.
+	- 도커 내부에 환경변수를 어떻게 전달 할것인가?
