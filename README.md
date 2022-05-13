@@ -83,7 +83,7 @@ Would you like to enable Spot Fleet requests for this environment? (y/N):
 
 ---
 
-## 개선
+## 개선점
 
 - 쉘 스크립트를 통해 eb 애플리케이션 이름 설정과 환경 이름 설정을 제외한 모든 작업을 자동화 한다.
   - 대화식 쉘에 입력값을 어떻게 전달 할것인가?
@@ -91,3 +91,5 @@ Would you like to enable Spot Fleet requests for this environment? (y/N):
   - 이름 설정도 지정된 네이밍 규칙으로 자동화?
 - aws iam key를 외부화 한다.
 	- 도커 내부에 환경변수를 어떻게 전달 할것인가?
+
+[ElasticBeanstalk Docs](https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/command-options-general.html)
